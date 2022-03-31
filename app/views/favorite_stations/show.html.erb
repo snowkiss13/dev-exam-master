@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name railway:</strong>
+  <%= @favorite_station.name_railway %>
+</p>
+
+<p>
+  <strong>Station name:</strong>
+  <%= @favorite_station.station_name %>
+</p>
+
+<p>
+  <strong>How minute:</strong>
+  <%= @favorite_station.how_minute %>
+</p>
+
+<p>
+  <strong>Rental:</strong>
+  <%= @favorite_station.rental %>
+</p>
+
+<%= link_to 'Edit', edit_favorite_station_path(@favorite_station) %> |
+<%= link_to 'Back', favorite_stations_path %>

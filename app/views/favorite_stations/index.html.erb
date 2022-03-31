@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Favorite Stations</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name railway</th>
+      <th>Station name</th>
+      <th>How minute</th>
+      <th>Rental</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @favorite_stations.each do |favorite_station| %>
+      <tr>
+        <td><%= favorite_station.name_railway %></td>
+        <td><%= favorite_station.station_name %></td>
+        <td><%= favorite_station.how_minute %></td>
+        <td><%= favorite_station.rental %></td>
+        <td><%= link_to 'Show', favorite_station %></td>
+        <td><%= link_to 'Edit', edit_favorite_station_path(favorite_station) %></td>
+        <td><%= link_to 'Destroy', favorite_station, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Favorite Station', new_favorite_station_path %>
