@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9f01248-a4bb-4e6e-993a-4968db1575fb" name="デフォルト変更リスト" comment="Create the favorite_station model">
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+    <list default="true" id="f9f01248-a4bb-4e6e-993a-4968db1575fb" name="デフォルト変更リスト" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/favorite_stations/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/favorite_stations/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/rentals/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rentals/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +38,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -155,7 +160,9 @@
       <option name="presentableId" value="Default" />
       <updated>1648349883035</updated>
       <workItem from="1648349886703" duration="4960000" />
-      <workItem from="1648745084305" duration="570000" />
+      <workItem from="1648745084305" duration="806000" />
+      <workItem from="1648800766268" duration="2150000" />
+      <workItem from="1648813587382" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1648350027136</created>
@@ -178,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648361577344</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create the favorite_station model">
+      <created>1648745742366</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648745742366</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
