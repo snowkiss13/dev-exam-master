@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f9f01248-a4bb-4e6e-993a-4968db1575fb" name="デフォルト変更リスト" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/favorite_stations/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/favorite_stations/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/rentals/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rentals/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/rentals_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/rentals_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/favorite_station.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/favorite_station.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/rental.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/rental.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +163,7 @@
       <workItem from="1648349886703" duration="4960000" />
       <workItem from="1648745084305" duration="806000" />
       <workItem from="1648800766268" duration="2150000" />
-      <workItem from="1648813587382" duration="299000" />
+      <workItem from="1648813587382" duration="4131000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1648350027136</created>
@@ -192,16 +193,35 @@
       <option name="project" value="LOCAL" />
       <updated>1648745742366</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="indexを日本語化">
+      <created>1648813929854</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648813929854</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Create the rental model" />
     <MESSAGE value="Create the favorite_station model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create the favorite_station model" />
+    <MESSAGE value="indexを日本語化" />
+    <option name="LAST_COMMIT_MESSAGE" value="indexを日本語化" />
   </component>
 </project>
