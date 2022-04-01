@@ -14,7 +14,7 @@ class RentalsController < ApplicationController
   # GET /rentals/new
   def new
     @rental = Rental.new
-    2.items { @rental.favorite_stations.build }
+    2.tiems { @rental.favorite_stations.build }
   end
 
   # GET /rentals/1/edit
