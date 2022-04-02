@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9f01248-a4bb-4e6e-993a-4968db1575fb" name="デフォルト変更リスト" comment="">
+    <list default="true" id="f9f01248-a4bb-4e6e-993a-4968db1575fb" name="デフォルト変更リスト" comment="index・新規投稿での表示を日本語化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/rentals_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/rentals_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/rentals/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rentals/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/rentals/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rentals/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/rentals/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rentals/show.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +163,7 @@
       <workItem from="1648349886703" duration="4960000" />
       <workItem from="1648745084305" duration="806000" />
       <workItem from="1648800766268" duration="2150000" />
-      <workItem from="1648813587382" duration="7021000" />
+      <workItem from="1648813587382" duration="10505000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1648350027136</created>
@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648826540448</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="index・新規投稿での表示を日本語化">
+      <created>1648876306295</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648876306295</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +258,7 @@
     <MESSAGE value="Create the favorite_station model" />
     <MESSAGE value="indexを日本語化" />
     <MESSAGE value="accepts_nested_attributes_forを使う設定" />
-    <option name="LAST_COMMIT_MESSAGE" value="accepts_nested_attributes_forを使う設定" />
+    <MESSAGE value="index・新規投稿での表示を日本語化" />
+    <option name="LAST_COMMIT_MESSAGE" value="index・新規投稿での表示を日本語化" />
   </component>
 </project>
