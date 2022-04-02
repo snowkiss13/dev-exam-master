@@ -14,7 +14,7 @@ class RentalsController < ApplicationController
   # GET /rentals/new
   def new
     @rental = Rental.new
-    2.tiems { @rental.favorite_stations.build }
+    2.times { @rental.favorite_stations.build }
   end
 
   # GET /rentals/1/edit
@@ -79,7 +79,7 @@ class RentalsController < ApplicationController
     def rental_params
       params.require(:rental).permit(:property,
                                      :rent,
-                                     :addres,
+                                     :address,
                                      :building_age,
                                      :remark,
                                      favorite_stations_attributes: [
