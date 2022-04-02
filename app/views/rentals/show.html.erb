@@ -24,7 +24,7 @@
   <strong>備考:</strong>
   <%= @rental.remark %>
 </p>
-
+<hr>
 <tbody>
 <% i = 0 %>
 <% @favorite_stations.each do |favorite_station| %>
@@ -41,5 +41,5 @@
 <% end %>
 </tbody>
 
-<%= link_to 'Edit', edit_rental_path(@rental) %> |
-<%= link_to 'Back', rentals_path %>
+<%= link_to '編集', edit_rental_path(@rental) %> |
+<%= link_to '戻る', rentals_path %>
