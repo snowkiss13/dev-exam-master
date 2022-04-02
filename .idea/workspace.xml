@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9f01248-a4bb-4e6e-993a-4968db1575fb" name="デフォルト変更リスト" comment="showにeach文で駅名表示機能を追加">
+    <list default="true" id="f9f01248-a4bb-4e6e-993a-4968db1575fb" name="デフォルト変更リスト" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/rentals_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/rentals_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/favorite_stations/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/favorite_stations/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/rentals/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rentals/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/rentals/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rentals/show.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648896563818</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="編集でeditが正しく反映されないエラーを修正">
+      <created>1648909660637</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1648909660637</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +286,7 @@
     <MESSAGE value="accepts_nested_attributes_forを使う設定" />
     <MESSAGE value="index・新規投稿での表示を日本語化" />
     <MESSAGE value="showにeach文で駅名表示機能を追加" />
-    <option name="LAST_COMMIT_MESSAGE" value="showにeach文で駅名表示機能を追加" />
+    <MESSAGE value="編集でeditが正しく反映されないエラーを修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="編集でeditが正しく反映されないエラーを修正" />
   </component>
 </project>
