@@ -41,6 +41,7 @@
   </div>
 
   <%= form.fields_for :favorite_stations do |favorite_station| %>
+    <h2>最寄り駅</h2>
     　　<div class="name_railway">
   　　<%= favorite_station.label :name_railway, "路線名" %><br>
   　　<%= favorite_station.text_field :name_railway %>
@@ -54,6 +55,7 @@
   　　 <%= favorite_station.text_field :how_minute %>分<br>
   　　</div>
     　　<%= form.submit '登録する' %>
+    <%#= binding.irb %>
   <% end %>
 
 <% end %>
