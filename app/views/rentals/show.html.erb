@@ -26,28 +26,13 @@
 </p>
 
 <tbody>
-  <% @favorite_station.each do |station| %>
-    <p>
-
-      <strong>最寄駅:</strong>
-      <%= station.name_railway.present? %>
-    </p>
-
-    <p>
-      <strong>駅名:</strong>
-      <%= station.station_name.present? %>
-    </p>
-
-    <p>
-      <strong>徒歩分数:</strong>
-      <%= station.how_minute.present? %>
-    </p>
-
-    <p>
-      <strong>物件名:</strong>
-      <%= station.rental.present? %>
-    </p>
+<% @favorite_stations.each do |favorite_station| %>
+  <% if @rental.favorite_stations.any? %>
+    <%= favorite_station.name_railway %>
+    <%= favorite_station.station_name %>
+    <%= favorite_station.how_minute %>
   <% end %>
+<% end %>
 </tbody>
 
 <%= link_to 'Edit', edit_rental_path(@rental) %> |

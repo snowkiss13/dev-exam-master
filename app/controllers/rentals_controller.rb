@@ -8,7 +8,7 @@ class RentalsController < ApplicationController
 
   # GET /rentals/1 or /rentals/1.json
   def show
-    @favorite_station = @rental.favorite_stations
+    @favorite_stations = @rental.favorite_stations
   end
 
   # GET /rentals/new

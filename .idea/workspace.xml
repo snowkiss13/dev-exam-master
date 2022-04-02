@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9f01248-a4bb-4e6e-993a-4968db1575fb" name="デフォルト変更リスト" comment="index・新規投稿での表示を日本語化">
+    <list default="true" id="f9f01248-a4bb-4e6e-993a-4968db1575fb" name="デフォルト変更リスト" comment="showにeach文で駅名表示機能を追加">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/rentals_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/rentals_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/rentals/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rentals/_form.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/rentals/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rentals/show.html.erb" afterDir="false" />
     </list>
@@ -163,7 +165,9 @@
       <workItem from="1648349886703" duration="4960000" />
       <workItem from="1648745084305" duration="806000" />
       <workItem from="1648800766268" duration="2150000" />
-      <workItem from="1648813587382" duration="10505000" />
+      <workItem from="1648813587382" duration="10901000" />
+      <workItem from="1648883594120" duration="2432000" />
+      <workItem from="1648888671565" duration="2481000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1648350027136</created>
@@ -235,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648876306295</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="showにeach文で駅名表示機能を追加">
+      <created>1648881363485</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1648881363485</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +262,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
@@ -259,6 +271,7 @@
     <MESSAGE value="indexを日本語化" />
     <MESSAGE value="accepts_nested_attributes_forを使う設定" />
     <MESSAGE value="index・新規投稿での表示を日本語化" />
-    <option name="LAST_COMMIT_MESSAGE" value="index・新規投稿での表示を日本語化" />
+    <MESSAGE value="showにeach文で駅名表示機能を追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="showにeach文で駅名表示機能を追加" />
   </component>
 </project>

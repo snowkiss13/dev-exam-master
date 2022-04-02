@@ -40,18 +40,18 @@
     <%= form.submit %>
   </div>
 
-  <%= form.fields_for :nearest_stations do |nearest_station| %>
-    　　<div class="route">
-  　　<%= nearest_station.label "路線名" %><br>
-  　　<%= nearest_station.text_field :route %>
+  <%= form.fields_for :favorite_stations do |favorite_station| %>
+    　　<div class="name_railway">
+  　　<%= favorite_station.label :name_railway, "路線名" %><br>
+  　　<%= favorite_station.text_field :name_railway %>
   　　</div>
-    　　<div class="station">
-  　　<%= nearest_station.label "駅名" %><br>
-  　　<%= nearest_station.text_field :station %>
+    　　<div class="station_name">
+  　　<%= favorite_station.label :station_name, "駅名" %><br>
+  　　<%= favorite_station.text_field :station_name %>
   　　</div>
-    　　<div class="minutes_walk">
-  　　<%= nearest_station.label "徒歩分数" %><br>
-  　　 <%= nearest_station.text_field :minutes_walk %>分<br>
+    　　<div class="how_minute">
+  　　<%= favorite_station.label :how_minute, "徒歩分数" %><br>
+  　　 <%= favorite_station.text_field :how_minute %>分<br>
   　　</div>
     　　<%= form.submit '登録する' %>
   <% end %>
