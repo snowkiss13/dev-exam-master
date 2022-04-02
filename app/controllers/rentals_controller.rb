@@ -49,6 +49,7 @@ class RentalsController < ApplicationController
   def update
     if @rental.update(rental_params)
       redirect_to rentals_path, notice: "物件を編集しました"
+    else
       render :edit
     end
     # ↓SCAFFOLDで作成された部分
