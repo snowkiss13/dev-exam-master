@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9f01248-a4bb-4e6e-993a-4968db1575fb" name="デフォルト変更リスト" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/rentals/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rentals/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/rentals/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rentals/new.html.erb" afterDir="false" />
-    </list>
+    <list default="true" id="f9f01248-a4bb-4e6e-993a-4968db1575fb" name="デフォルト変更リスト" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -273,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648912050950</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="詳細画面とformと新規ページを日本語化">
+      <created>1648912893033</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648912893033</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +304,7 @@
     <MESSAGE value="showにeach文で駅名表示機能を追加" />
     <MESSAGE value="編集でeditが正しく反映されないエラーを修正" />
     <MESSAGE value="show画面を日本語化" />
-    <option name="LAST_COMMIT_MESSAGE" value="show画面を日本語化" />
+    <MESSAGE value="詳細画面とformと新規ページを日本語化" />
+    <option name="LAST_COMMIT_MESSAGE" value="詳細画面とformと新規ページを日本語化" />
   </component>
 </project>
