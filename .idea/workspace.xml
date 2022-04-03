@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9f01248-a4bb-4e6e-993a-4968db1575fb" name="デフォルト変更リスト" comment="">
+    <list default="true" id="f9f01248-a4bb-4e6e-993a-4968db1575fb" name="デフォルト変更リスト" comment="編集画面を日本語化">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/rentals/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rentals/edit.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,6 +171,7 @@
       <workItem from="1648813587382" duration="10901000" />
       <workItem from="1648883594120" duration="2432000" />
       <workItem from="1648888671565" duration="3001000" />
+      <workItem from="1648944333341" duration="344000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1648350027136</created>
@@ -290,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648913130833</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="編集画面を日本語化">
+      <created>1648913728458</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1648913728458</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +310,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="github/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -319,6 +340,7 @@
     <MESSAGE value="編集でeditが正しく反映されないエラーを修正" />
     <MESSAGE value="show画面を日本語化" />
     <MESSAGE value="詳細画面とformと新規ページを日本語化" />
-    <option name="LAST_COMMIT_MESSAGE" value="詳細画面とformと新規ページを日本語化" />
+    <MESSAGE value="編集画面を日本語化" />
+    <option name="LAST_COMMIT_MESSAGE" value="編集画面を日本語化" />
   </component>
 </project>
