@@ -1,0 +1,62 @@
+<%= form_with(model: rental, local: true) do |form| %>
+  <% if rental.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(rental.errors.count, "error") %> prohibited this rental from being saved:</h2>
+
+      <ul>
+      <% rental.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :property, "物件名" %>
+    <%= form.text_area :property %>
+  </div>
+
+  <div class="field">
+    <%= form.label :rent, "賃料" %>
+    <%= form.number_field :rent %>円
+  </div>
+
+  <div class="field">
+    <%= form.label :address, "住所" %>
+    <%= form.text_area :address %>
+  </div>
+
+  <div class="field">
+    <%= form.label :building_age, "築年数" %>
+    <%= form.number_field :building_age %>年
+  </div>
+
+  <div class="field">
+    <%= form.label :rent, "備考" %>
+    <%= form.text_area :remark %>
+  </div>
+
+  <div class="actions">
+    <%#= form.submit '登録する'%>
+  </div>
+  <% i = 0 %>
+  <%= form.fields_for :favorite_stations do |favorite_station| %>
+    <% i += 1 %>
+    <h2>最寄り駅<%= i %></h2>
+    <div class="name_railway">
+      <%= favorite_station.label :name_railway, "路線名" %>
+      <%= favorite_station.text_field :name_railway %>
+    </div>
+    <div class="station_name">
+      <%= favorite_station.label :station_name, "駅名" %>
+      <%= favorite_station.text_field :station_name %>
+  　</div>
+    <div class="how_minute">
+      <%= favorite_station.label :how_minute, "徒歩分数" %>
+      <%= favorite_station.text_field :how_minute %>分
+  　　</div>
+
+  <% end %>
+  <%= form.submit '登録する' %>
+
+<% end %>

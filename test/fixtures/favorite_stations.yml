@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name_railway: MyText
+  station_name: MyText
+  how_minute: 1
+  rental: one
+
+two:
+  name_railway: MyText
+  station_name: MyText
+  how_minute: 1
+  rental: two
